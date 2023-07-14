@@ -49,21 +49,6 @@ body {
   border: 1px #23252d;
 }
 
-.main {
-  background: url(./Imagens/ban1.jpeg) no-repeat;
-  background-color: white;
-  background-size: contain;
-  width: 100%;
-  height: 70vh;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.main h3 {
-  color: var(--main-white);
-  font-size: 4.4rem;
-  font-weight: 700;
-}
 
 small {
   font-weight: 100;
@@ -318,6 +303,21 @@ footer {
 .contact a {
   text-decoration: none;
   color: var(--main-black);
+}
+
+.section-video {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  width: 60%;
+}
+
+.text-container li {
+  font-size: 2rem;
+  margin-top: 3rem;
+
 }
 
 @media (max-width: 950px) {
