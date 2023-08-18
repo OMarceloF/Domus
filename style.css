@@ -49,16 +49,8 @@ body {
   border: 1px #23252d;
 }
 
-
 small {
   font-weight: 100;
-}
-
-.main {
-  background-image: url(./Imagens/banner.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 70vh;
 }
 
 .main h6 {
@@ -296,7 +288,7 @@ h1 {
     transform: translateY(-15px);
   }
   50% {
-      transform: translateY(-30px);
+    transform: translateY(-30px);
   }
   100% {
     transform: translateY(0);
@@ -305,9 +297,8 @@ h1 {
 
 .whatsapp-button:hover {
   scale: 1.2;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
-
 
 .whatsapp-button img {
   width: 80px;
@@ -335,7 +326,6 @@ footer {
 .text-container li {
   font-size: 1.5rem;
   margin-top: 1.5rem;
-
 }
 
 @media (max-width: 950px) {
