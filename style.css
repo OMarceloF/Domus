@@ -54,6 +54,13 @@ small {
   font-weight: 100;
 }
 
+.main {
+  background-image: url(./Imagens/banner.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+
 .main h6 {
   color: var(--main-white);
   font-size: 1.4rem;
@@ -233,6 +240,17 @@ h1 {
   opacity: 0;
 }
 
+.itemDomus {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.4rem;
+  margin: 2rem;
+}
+
+.itemDomus svg {
+  color: #187a3f;
+}
+
 .item:hover span {
   opacity: 1;
   transition: 0.5s;
@@ -315,8 +333,8 @@ footer {
 }
 
 .text-container li {
-  font-size: 2rem;
-  margin-top: 3rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
 
 }
 
