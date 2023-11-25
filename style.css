@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 :root {
   --main-black: #187a3f;
   --main-white: white;
@@ -10,7 +12,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: var(--main-white);
 }
 
@@ -274,8 +276,19 @@ h1 {
 .itemDomus {
   display: flex;
   flex-direction: row;
+  align-items: center;
   font-size: 1.4rem;
   margin: 1.4rem;
+  gap: 2rem;
+}
+
+#DomusRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemDomus h3 {
+  margin-bottom: 2rem;
 }
 
 .itemDomus svg {
@@ -372,11 +385,163 @@ footer {
   margin-top: 1.5rem;
 }
 
-@media (max-width: 950px) {
-  .main {
-    background: none;
-    background-color: white;
-    height: 70vh;
-    padding-top: 0;
+.img-fluid {
+  width: 100vw;
+}
+
+.imgMobile {
+  display: none;
+}
+
+.cardInst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.card h3 {
+  color: var(--main-black);
+  font-weight: bold;
+}
+
+@media (max-width: 2560px) {
+  .btn2 {
+    width: 250px;
+  }
+  .navbar-brand img {
+    width: 650px;
+  }
+  .nav-link {
+    font-size: 1.8rem;
+  }
+  .about p {
+    font-size: 1.6rem;
+  }
+  .about img {
+    height: 80%;
+  }
+  .btn2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  #contact h5 {
+    font-size: 1.6rem;
+  }
+  #contact p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  .navbar-brand img {
+    width: 400px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  .about p {
+    font-size: 1.4rem;
+  }
+  .about img {
+    height: 80%;
+  }
+  .btn2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  #contact h5 {
+    font-size: 1.4rem;
+  }
+  #contact p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .navbar-brand img {
+    width: 280px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  .about p {
+    font-size: 1.2rem;
+  }
+  .about img {
+    height: 80%;
+  }
+  .btn2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  #contact h5 {
+    font-size: 1.2rem;
+  }
+  #contact p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar-brand img {
+    width: 225px;
+  }
+  .nav-link {
+    font-size: 1rem;
+  }
+  .about p {
+    font-size: 1rem;
+  }
+  .about img {
+    height: 80%;
+  }
+  .btn2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  #contact h5 {
+    font-size: 1rem;
+  }
+  #contact p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-fluid {
+    height: 450px;
+  }
+  .section-video {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #services {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-container {
+    width: 100%;
+  }
+  .whatsapp-button img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .imgMobile {
+    display: block;
+  }
+  .imgPc {
+    display: none;
+  }
+  .inst {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer p {
+    font-size: 0.8rem;
   }
 }

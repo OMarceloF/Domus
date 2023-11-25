@@ -43,7 +43,8 @@
       </div>
     </nav>
     <section class="main">
-      <img src="./Imagens/banner.jpeg" class="img-fluid" alt="ban">
+      <img src="./Imagens/banner.jpeg" class="img-fluid imgPc" alt="ban">
+      <img src="./Imagens/img4.jpeg" class="imgMobile img-fluid" alt="img4">
     </section>
     <section class="secInst">
       <h1>Sobre Nós</h1>
@@ -66,7 +67,7 @@
             </div></p>
           </div>
         </div>
-        <div class="card"     data-aos="fade-right"
+        <div class="card cardInst"     data-aos="fade-right"
         data-aos-duration="2000" style="width: 25rem; box-shadow: -8px 6px 89px -55px #187a3f;">
           <div class="card-body">
             <p class="card-text"><div class="itemDomusOne">
@@ -174,10 +175,18 @@
         <div class="card" style="width: 25rem;">
           <img src="./Imagens/ft1.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text"><div class="itemDomus">
+            <p class="card-text"><div class="itemDomus" id="DomusRow">
+              <h3>Odontologia</h3>
               <ul>
-                <li>Odontologia e Especialidades</li>
-                <li>Ortodontia (aparelhos fixos e removíveis)</li>
+                <li>Clínico Geral</li>
+                <li>Implandontia (Ímpares e protocolo)</li>
+                <li>Endodontia (Tratamento de canal)</li>
+                <li>Ortodontia (Aparelhos)</li>
+                <li>Peridontia</li>
+                <li>Cirurgias</li>
+                <li>Prótese Dentária</li>
+                <li>Estética (Facetas)</li>
+                <li>Odontopediatria</li>
               </ul>
             </div></p>
           </div>
@@ -185,7 +194,8 @@
         <div class="card" style="width: 25rem;">
           <img src="./Imagens/ft2.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text"><div class="itemDomus">
+            <p class="card-text"><div class="itemDomus" id="DomusRow">
+              <h3>Ultrassonografia</h3>
               <ul>
                 <li>Ultrassonografia Geral</li>
                 <li>Ultrassonografia Vascular </li>
@@ -197,7 +207,8 @@
         <div class="card" style="width: 25rem;">
           <img src="./Imagens/ft3.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <p class="card-text"><div class="itemDomus">
+            <p class="card-text"><div class="itemDomus" id="DomusRow">
+              <h3>Medicina</h3>
             <ul>
               <li>Clínica Médica</li>
               <li>Ginecologia e Obstetrícia</li>
@@ -208,6 +219,8 @@
               <li>Endocrinologia</li>
               <li>Urologia</li>
               <li>Cirurgia Vascular e Angiologia</li>
+              <li>Dermatologia</li>
+              <li>Outras Especialidades</li>
             </ul>
             </div></p>
           </div>
@@ -286,10 +299,6 @@
         </div>
       </div>
     </section>
-    
-    <footer class="py-3 text-center">
-      <p>Copy Right 2023 - Por Marcelo Ferreira Todos os direitos reservados</p>
-    </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
